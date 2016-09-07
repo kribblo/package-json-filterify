@@ -10,7 +10,7 @@ function packageJsonFilterify(content, transformOptions, done) {
 
     var basename = path.basename(file);
     if (basename !== 'package.json') {
-        return done();
+        return done(null, content);
     }
 
     var config = transformOptions.config || {};

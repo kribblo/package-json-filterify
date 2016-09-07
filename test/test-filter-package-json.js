@@ -72,7 +72,13 @@ test('skip transform of other json', function (t) {
         if (err) {
             t.fail(err);
         } else {
-            t.equals(transformed, 'undefined');
+            t.ok(transformed.indexOf('"name"') > -1);
+            t.ok(transformed.indexOf('"main"') > -1);
+            t.ok(transformed.indexOf('"version"') > -1);
+
+            t.ok(transformed.indexOf('"' + name + '"') > -1);
+            t.ok(transformed.indexOf('"' + main + '"') > -1);
+            t.ok(transformed.indexOf('"' + version + '"') > -1);
         }
         t.end();
     });
