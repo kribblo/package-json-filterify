@@ -51,10 +51,6 @@ Configure what fields to keep:
 }
 ```
 
-### Command line
-
-    browserify -t [package-json-filterify --keep [name version main]] input.js > output.js
-
 ## See also
 
 * [package-json-versionify](https://github.com/nolanlawson/package-json-versionify)

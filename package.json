@@ -1,7 +1,7 @@
 {
   "name": "package-json-filterify",
   "version": "1.0.0",
-  "description": "Transform to filter package.json fields",
+  "description": "Browserify transform to filter package.json fields",
   "main": "index.js",
   "scripts": {
     "lint": "jshint index.js test/*.js",
