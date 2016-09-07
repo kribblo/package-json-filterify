@@ -13,6 +13,8 @@ console.log(packageJson.name, packageJson.version);
 
 ## Usage
 
+### Command line
+
     browserify -t package-json-filterify input.js > output.js
 
 ### browserify field
