@@ -1,0 +1,26 @@
+{
+  "name": "package-json-filterify",
+  "version": "1.0.0",
+  "description": "Transform to filter package.json fields",
+  "main": "index.js",
+  "scripts": {
+    "lint": "jshint index.js test/*.js",
+    "test": "tape test/test-*.js",
+    "posttest": "npm run lint",
+    "preversion": "npm test"
+  },
+  "keywords": [
+    "browserify-transform",
+    "filter",
+    "package.json"
+  ],
+  "author": "Kristoffer Lundén <kristoffer.lunden@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "browserify-transform-tools": "^1.6.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.3",
+    "tape": "^4.6.0"
+  }
+}
