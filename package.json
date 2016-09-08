@@ -22,5 +22,16 @@
   "devDependencies": {
     "jshint": "^2.9.3",
     "tape": "^4.6.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kribblo/package-json-filterify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kribblo/package-json-filterify/issues"
+  },
+  "homepage": "https://github.com/kribblo/package-json-filterify#readme"
 }
